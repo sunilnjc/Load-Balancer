@@ -1,3 +1,7 @@
+## Load Balancer Algorithms
+
+### RoundRobin
+
 the LoadBalancer class in loadBalancer.ts doesn't directly invoke or reference the servers.ts file. This is because the two files serve different purposes and run as separate processes:
 
 servers.ts: This file creates and starts multiple backend server instances. Each server runs on a different port (e.g., 3001, 3002, 3003). These servers handle the actual requests that get proxied by the load balancer.
