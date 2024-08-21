@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:servers": "ts-node src/Server.ts",
-    "start:loadbalancer": "ts-node src/RoundRobin.ts"
+    "start:roundrobin": "ts-node src/RoundRobin.ts",
+    "start:iphash": "ts-node src/IpHash.ts"
   },
   "repository": {
     "type": "git",
